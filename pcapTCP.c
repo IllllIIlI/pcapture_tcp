@@ -2,7 +2,7 @@
 #include <pcap.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "pcapture.h"
+#include "pcapTCP.h"
 
 void print_mac_address(const char *label, const u_char *mac_address) {
   printf("%s: ", label);
